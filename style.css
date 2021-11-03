@@ -493,6 +493,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-evenly;
     margin: auto;
+    flex-wrap: wrap;
 }
 .description{
     width: 50%;

@@ -19,6 +19,9 @@ nav{
     background-color: #ffffff;
     border-bottom: 1px solid #d1d1d1;
     box-shadow: 2px 2px 8px #bbbbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul{
@@ -37,7 +40,10 @@ nav ul li a{
     font-size: 18px;
     font-weight: bold;
 }
-
+nav ul li a:hover{
+    color: rgb(44, 44, 255);
+    transition: 0.1s;
+}
 .home{
     width: 84%;
     height: 80vh;
@@ -443,4 +449,55 @@ nav ul li a{
     .right img{
         display: none;
     }
+}
+.books h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.books p{
+    text-align: center;
+}
+.books-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-card{
+    width: 400px;
+    height: 500px;
+
+    margin: 30px;
+    border-radius: 30px;
+}
+.b-card img{
+    width: 360px;
+    height: 500px;
+    box-shadow: 2px 2px 10px rgb(160, 160, 160);
+    border-radius: 20px;
+}
+.b-card .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details a {
+    margin-left: 10px;
+}
+.image-book img{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow:  2px 2px 10px rgb(126, 126, 126);
+}
+.book_one{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.description{
+    width: 50%;
+}
+.description p{
+    line-height: 35px;
+    width: 90%;
 }
